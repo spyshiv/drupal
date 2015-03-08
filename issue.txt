@@ -1,0 +1,14 @@
+Setup is not installing after database section
+I'm using guidance of http://drupalladder.org/lesson/83b899b4-f2fa-439e-b8e0-c921149e704f
+i'm facing issues in following these points
+" 10.Select your preferred language and the custom installation profile.
+11.Make sure the files directory exists and is writable. Also, make sure settings.php file exists and is writable. Make sure services.yml file exists and is writable.
+12.Add information about the database server, site database and database credentials.
+13.After all core modules are installed, complete the form regarding the site configuration.
+"
+
+when i follow point 10 the error shown in the file C:\xampp\htdocs\drupal8\core\vendor\composer\ClasssLoader.php that is something session expiration. And after that it shows drupal is already install but it fails to access.
+i face this error...
+
+"Error
+The website has encountered an error. Please try again later. "
